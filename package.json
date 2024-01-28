@@ -1,15 +1,19 @@
 {
-	"name": "backend-project-chai-code",
+	"name": "backend-project",
 	"version": "1.0.0",
 	"description": "a backend at basic course",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "nodemon src/index.js"
 	},
 	"keywords": [
 		"javascript",
 		"backend"
 	],
 	"author": "Jagpreet",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.0.3"
+	}
 }
